@@ -1,0 +1,32 @@
+    1  ls -la
+    2  cd portfolio_webmaster_2016/
+    3  git init
+    4  mkdir test
+    5  cd test/
+    6  echo "Lubuyu stroku" >> README.md
+    7  cat README.md
+    8  git remote add origin https://github.com/LanaLong/portfolio_webmaster_2016.git
+    9  git push -u origin master
+   10  echo "lkjlkjlkjlkj" test.css
+   11  ls
+   12  echo "lkjlkjlkjlkjlkjlkjlkj" >> test.css
+   13  cat
+   14  git add test.css
+   15  git commit -m test.css "Коммитю раз"
+   16  git commit -m "Коммитю раз" test.css
+   17  git push origin
+   18  git pull origin
+   19  cat test.css
+   20  git add mail.php 
+   21  git commit -m "added mail.php" mail.php 
+   22  git push origin
+   23  git commit -m "deleted" 
+   24  git status
+   25  git commit -a
+   26  git push origin 
+   27  git add -u .
+   28  git commit -m "deleted"
+   29  git push origin 
+   30  cd ..
+   31  history
+   32  history > command_history.txt
